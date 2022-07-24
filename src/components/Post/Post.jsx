@@ -39,16 +39,7 @@ export default function Post({ user, post, setPosts, posts }) {
 		setIsLiked(!isLiked)
 	}
 
-	// const handleLike = () => {
-	// 	// console.log(`${userId}, ${postIdObj}`)
-	// 	userProfileAPI.likePost(userId, postIdObj)
-	// 	setPosts(posts.map(item => {
-	// 		if (item._id === post._id) {
-	// 			item.likes++
-	// 		}
-	// 		return item
-	// 	}))
-	// }
+	
 
 	return (
 		<>

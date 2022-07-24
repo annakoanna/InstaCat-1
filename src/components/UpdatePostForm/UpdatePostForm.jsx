@@ -12,22 +12,9 @@ const UpdatePostForm = ({
 	let { userId } = useParams()
 	const postIdObj = { postId: post._id }
 
-	// console.log(`${userId}, ${postIdObj.postId}`)
-
-	// const [postData, setPostData] = useState({
-	//   userId: user._id,
-	//   userName: user.name,
-	//   likes: 0,
-	//     description: "",
-	//     image: "",
-	//   })
-
-	// let description = post.description
-	// let temp
+	
 	const handleChange = (event) => {
-		// event.target.value === ''? temp = description : temp = event.target.value
-		// console.log(event.target.value)
-		// console.log(temp)
+		
 		setPostData({
 			...postData,
 			[event.target.name]: event.target.value,

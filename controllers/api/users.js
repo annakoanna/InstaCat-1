@@ -47,7 +47,7 @@ async function changeUsername(req, res) {
             { name: newUsername },
             { new: true })
         res.json(createJWT(newUser))
-    } catch (error) {
+    } catch (error) {age = 100
         res.status(400).json(error)
     }
 }
